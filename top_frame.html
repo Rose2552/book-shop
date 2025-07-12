@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Top Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .logo-container img {
+            height: 50px; /* Adjust as needed */
+            margin-right: 15px;
+        }
+        .logo-container h1 {
+            margin: 0;
+            font-size: 2.8em;
+            color: #191919;
+            background-color: #f4f748;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 25px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        ul li a:hover {
+            background-color: #f4f748;
+            color: #030303;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <img src="college_logo.png" alt="College Logo">
+        <marquee behavior="style" direction="left"><h1>rose Engineering Bookstore</h1></marquee>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="right_frame_home.html" target="rightFrame">Home</a></li>
+            <li><a href="login.html" target="rightFrame">Login</a></li>
+            <li><a href="catalog_all.html" target="rightFrame">Catalogue</a></li>
+            <li><a href="registration.html" target="rightFrame">Registration</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
