@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSE Books Catalogue</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #333;
+        }
+        h2 {
+            color: #007bff;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #555;
+            font-weight: bold;
+        }
+        td img {
+            width: 80px; /* Adjust size as needed */
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border: 1px solid #eee;
+            padding: 3px;
+        }
+        .add-to-cart-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: background-color 0.3s ease;
+        }
+        .add-to-cart-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+     <h3>Electrical and Electronics Engineering Books</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Cover</th>
+                <th>Book Name</th>
+                <th>Author</th>
+                <th>Publisher</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="book_cover_power_sys.jpg" alt="Power Systems Book Cover"></td>
+                <td>Power System Analysis</td>
+                <td>Charles A. Gross</td>
+                <td>Wiley</td>
+                <td>$60.00</td>
+                <td><button class="add-to-cart-btn">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td><img src="book_cover_control_sys.jpg" alt="Control Systems Book Cover"></td>
+                <td>Control Systems Engineering</td>
+                <td>Norman S. Nise</td>
+                <td>Wiley</td>
+                <td>$57.00</td>
+                <td><button class="add-to-cart-btn">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td><img src="book_cover_machines.jpg" alt="Electrical Machines Book Cover"></td>
+                <td>Electrical Machines</td>
+                <td>D. P. Kothari</td>
+                <td>McGraw-Hill Education</td>
+                <td>$52.00</td>
+                <td><button class="add-to-cart-btn">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td><img src="book_cover_power_elect.jpg" alt="Power Electronics Book Cover"></td>
+                <td>Power Electronics</td>
+                <td>Ned Mohan</td>
+                <td>Wiley</td>
+                <td>$65.00</td>
+                <td><button class="add-to-cart-btn">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td><img src="book_cover_measurements.jpg" alt="Electrical Measurements Book Cover"></td>
+                <td>Electrical and Electronic Measurements</td>
+                <td>A. K. Sawhney</td>
+                <td>Dhanpat Rai & Co.</td>
+                <td>$48.00</td>
+                <td><button class="add-to-cart-btn">Add to Cart</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
