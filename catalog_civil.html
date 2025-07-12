@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSE Books Catalogue</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #333;
+        }
+        h2 {
+            color: #007bff;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #555;
+            font-weight: bold;
+        }
+        td img {
+            width: 80px; /* Adjust size as needed */
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border: 1px solid #eee;
+            padding: 3px;
+        }
+        .add-to-cart-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: background-color 0.3s ease;
+        }
+        .add-to-cart-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+   <h3>Civil Engineering Books</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Cover</th>
+                <th>Book Name</th>
+                <th>Author</th>
+                <th>Publisher</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="book_cover_structure_analysis.jpg" alt="Structural Analysis Book Cover"></td>
+                <td>Structural Analysis</td>
+                <td>R. C. Hibbeler</td>
+                <td>Pearson</td>
+                <td>$61.00</td>
+                <td><button class="add-to-cart-btn">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td><img src="book_cover_geotech.jpg" alt="Geotechnical Engineering Book Cover"></td>
+                <td>Principles of Geotechnical Engineering</td>
+                <td>Braja M. Das</td>
+                <td>Cengage Learning</td>
+                <td>$55.00</td>
+                <td><button class="add-to-cart-btn">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td><img src="book_cover_transportation.jpg" alt="Transportation Engineering Book Cover"></td>
+                <td>Transportation Engineering and Planning</td>
+                <td>C. S. Papacostas</td>
+                <td>Pearson</td>
+                <td>$58.00</td>
+                <td><button class="add-to-cart-btn">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td><img src="book_cover_hydrology.jpg" alt="Hydrology Book Cover"></td>
+                <td>Engineering Hydrology</td>
+                <td>K. Subramanya</td>
+                <td>McGraw-Hill Education</td>
+                <td>$49.00</td>
+                <td><button class="add-to-cart-btn">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td><img src="book_cover_concrete.jpg" alt="Concrete Structures Book Cover"></td>
+                <td>Design of Reinforced Concrete</td>
+                <td>Jack C. McCormac</td>
+                <td>Wiley</td>
+                <td>$53.00</td>
+                <td><button class="add-to-cart-btn">Add to Cart</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
