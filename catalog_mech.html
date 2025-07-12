@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSE Books Catalogue</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #333;
+        }
+        h2 {
+            color: #007bff;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #555;
+            font-weight: bold;
+        }
+        td img {
+            width: 80px; /* Adjust size as needed */
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border: 1px solid #eee;
+            padding: 3px;
+        }
+        .add-to-cart-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: background-color 0.3s ease;
+        }
+        .add-to-cart-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h3>Mechanical Engineering Books</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Cover</th>
+                <th>Book Name</th>
+                <th>Author</th>
+                <th>Publisher</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="book_cover_thermo.jpg" alt="Thermodynamics Book Cover"></td>
+                <td>Thermodynamics: An Engineering Approach</td>
+                <td>Yunus A. Cengel</td>
+                <td>McGraw-Hill Education</td>
+                <td>$59.50</td>
+                <td><button class="add-to-cart-btn">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td><img src="book_cover_fluid_mech.jpg" alt="Fluid Mechanics Book Cover"></td>
+                <td>Fluid Mechanics</td>
+                <td>Frank M. White</td>
+                <td>McGraw-Hill Education</td>
+                <td>$54.00</td>
+                <td><button class="add-to-cart-btn">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td><img src="book_cover_som.jpg" alt="Strength of Materials Book Cover"></td>
+                <td>Strength of Materials</td>
+                <td>R. C. Hibbeler</td>
+                <td>Pearson</td>
+                <td>$51.00</td>
+                <td><button class="add-to-cart-btn">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td><img src="book_cover_machine_design.jpg" alt="Machine Design Book Cover"></td>
+                <td>Machine Design: An Integrated Approach</td>
+                <td>Robert L. Norton</td>
+                <td>Pearson</td>
+                <td>$63.00</td>
+                <td><button class="add-to-cart-btn">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td><img src="book_cover_manuf.jpg" alt="Manufacturing Processes Book Cover"></td>
+                <td>Manufacturing Processes for Engineering Materials</td>
+                <td>Serope Kalpakjian</td>
+                <td>Pearson</td>
+                <td>$68.00</td>
+                <td><button class="add-to-cart-btn">Add to Cart</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
